@@ -3,14 +3,14 @@ import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 
 const menu = [
-  { id: 1, name: "White Rice and Stew", price: 2000 },
+  { id: 1, name: "White Rice and Stew", price: 2500 },
   { id: 2, name: "White Rice and Vegetable", price: 2500 },
-  { id: 3, name: "Fufu with Egusi", price: 2000 },
-  { id: 4, name: "Fufu with Vegetable Soup", price: 2000 },
-  { id: 5, name: "Eba with Egusi", price: 2000 },
-  { id: 6, name: "Eba with Vegetable Soup", price: 2000 },
-  { id: 7, name: "Semo with Egusi", price: 2000 },
-  { id: 8, name: "Semo with Vegetable Soup", price: 2000 },
+  { id: 3, name: "Fufu with Egusi", price: 3000 },
+  { id: 4, name: "Fufu with Vegetable Soup", price: 3000 },
+  { id: 5, name: "Eba with Egusi", price: 3000 },
+  { id: 6, name: "Eba with Vegetable Soup", price: 3000 },
+  { id: 7, name: "Semo with Egusi", price: 3000 },
+  { id: 8, name: "Semo with Vegetable Soup", price: 3000 },
   { id: 9, name: "Shawarma", price: 6000, sundayOnly: true },
 ];
 
